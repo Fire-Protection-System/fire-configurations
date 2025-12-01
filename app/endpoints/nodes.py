@@ -11,6 +11,29 @@ from app.database import nodes_collection
 router = APIRouter()
 
 
+def _sanitize_node_dates(node: dict) -> dict:
+    """Ensure created_at and updated_at are datetimes (not None)."""
+    # created_at
+    ca = node.get("created_at")
+    if ca is None:
+        node["created_at"] = datetime.utcnow()
+    elif isinstance(ca, str):
+        try:
+            node["created_at"] = datetime.fromisoformat(ca)
+        except Exception:
+            node["created_at"] = datetime.utcnow()
+
+    ua = node.get("updated_at")
+    if ua is None:
+        node["updated_at"] = datetime.utcnow()
+    elif isinstance(ua, str):
+        try:
+            node["updated_at"] = datetime.fromisoformat(ua)
+        except Exception:
+            node["updated_at"] = datetime.utcnow()
+
+    return node
+
 @router.get(
     "/nodes/",
     response_description="List all nodes",
@@ -25,6 +48,8 @@ async def get_nodes():
     """
 
     nodes = await nodes_collection.find().to_list(length=None)
+    # sanitize datetime fields so Pydantic validation won't fail
+    nodes = [_sanitize_node_dates(n) for n in nodes]
     return NodeCollection(nodes=nodes)
 
 
@@ -41,10 +66,18 @@ async def get_node(node_id: str):
     :param node_id: The id of the node to get.
     :return: The node or a failure message.
     """
+    # validate ObjectId
+    try:
+        oid = ObjectId(node_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail=f"Invalid node id: {node_id}")
 
-    node = await nodes_collection.find_one({"_id": ObjectId(node_id)})
+    node = await nodes_collection.find_one({"_id": oid})
+    if not node:
+        raise HTTPException(status_code=404, detail=f"Node {node_id} not found")
 
-    return node if node else HTTPException(status_code=404, detail=f"Node {node_id} not found")
+    node = _sanitize_node_dates(node)
+    return node
 
 
 @router.get(
@@ -62,18 +95,29 @@ async def get_children(node_id: str):
     """
 
     async def _get_children(inner_node_id):
-        return nodes_collection.find({"parent_id": inner_node_id}).to_list(length=None)
+        # try to find children where parent_id matches as-stored (string or ObjectId)
+        results = await nodes_collection.find({"parent_id": inner_node_id}).to_list(length=None)
+        if results:
+            return results
+        # if nothing found, try treating parent_id as ObjectId
+        try:
+            oid = ObjectId(inner_node_id)
+            results = await nodes_collection.find({"parent_id": oid}).to_list(length=None)
+            return results
+        except Exception:
+            return []
 
     result = []
     queue = []
     children = await _get_children(node_id)
-    queue.extend(await children)
+    queue.extend(children)
     while queue:
         node = queue.pop(0)
         result.append(node)
         children = await _get_children(str(node["_id"]))
-        queue.extend(await children)
-
+        queue.extend(children)
+    # sanitize datetimes for all returned nodes
+    result = [_sanitize_node_dates(n) for n in result]
     return NodeCollection(nodes=result)
 
 
