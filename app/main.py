@@ -1,6 +1,8 @@
 import os
 import json
 import logging
+import asyncio
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
@@ -54,10 +56,10 @@ def validate_json_content(content: str, filename: str) -> bool:
 async def wait_for_mongo(timeout: int = 30, interval: float = 2.0) -> bool:
     """Wait until MongoDB responds to a ping. Returns True if available within timeout."""
     start = time.time()
-    loop = asyncio.get_running_loop()
     while time.time() - start < timeout:
         try:
-            await loop.run_in_executor(None, lambda: db.client.admin.command("ping"))
+            # Use motor async API directly instead of run_in_executor to avoid event loop issues
+            await db.client.admin.command("ping")
             logger.info("MongoDB available")
             return True
         except asyncio.CancelledError:

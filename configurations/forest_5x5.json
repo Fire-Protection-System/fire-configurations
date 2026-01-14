@@ -1,0 +1,1393 @@
+{
+    "forestId": -1,
+    "forestName": "forest_5x5",
+    "rows": 5,
+    "columns": 5,
+    "location": [
+        {
+            "longitude": 20.59695852606007,
+            "latitude": 49.93705195152758
+        },
+        {
+            "longitude": 20.69067696504037,
+            "latitude": 49.93705195152758
+        },
+        {
+            "longitude": 20.69067696504037,
+            "latitude": 49.90311928923877
+        },
+        {
+            "longitude": 20.59695852606007,
+            "latitude": 49.90311928923877
+        }
+    ],
+    "sectors": [
+        {
+            "sectorId": 1,
+            "row": 1,
+            "column": 1,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.59695852606007,
+                    49.93705195152758
+                ],
+                [
+                    20.59695852606007,
+                    49.93026541906982
+                ],
+                [
+                    20.61570221385613,
+                    49.93026541906982
+                ],
+                [
+                    20.61570221385613,
+                    49.93705195152758
+                ]
+            ]
+        },
+        {
+            "sectorId": 2,
+            "row": 1,
+            "column": 2,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.61570221385613,
+                    49.93705195152758
+                ],
+                [
+                    20.61570221385613,
+                    49.93026541906982
+                ],
+                [
+                    20.634445901652192,
+                    49.93026541906982
+                ],
+                [
+                    20.634445901652192,
+                    49.93705195152758
+                ]
+            ]
+        },
+        {
+            "sectorId": 3,
+            "row": 1,
+            "column": 3,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.634445901652192,
+                    49.93705195152758
+                ],
+                [
+                    20.634445901652192,
+                    49.93026541906982
+                ],
+                [
+                    20.653189589448253,
+                    49.93026541906982
+                ],
+                [
+                    20.653189589448253,
+                    49.93705195152758
+                ]
+            ]
+        },
+        {
+            "sectorId": 4,
+            "row": 1,
+            "column": 4,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.65318958944825,
+                    49.93705195152758
+                ],
+                [
+                    20.65318958944825,
+                    49.93026541906982
+                ],
+                [
+                    20.67193327724431,
+                    49.93026541906982
+                ],
+                [
+                    20.67193327724431,
+                    49.93705195152758
+                ]
+            ]
+        },
+        {
+            "sectorId": 5,
+            "row": 1,
+            "column": 5,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.67193327724431,
+                    49.93705195152758
+                ],
+                [
+                    20.67193327724431,
+                    49.93026541906982
+                ],
+                [
+                    20.69067696504037,
+                    49.93026541906982
+                ],
+                [
+                    20.69067696504037,
+                    49.93705195152758
+                ]
+            ]
+        },
+        {
+            "sectorId": 6,
+            "row": 2,
+            "column": 1,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.59695852606007,
+                    49.93026541906982
+                ],
+                [
+                    20.59695852606007,
+                    49.92347888661206
+                ],
+                [
+                    20.61570221385613,
+                    49.92347888661206
+                ],
+                [
+                    20.61570221385613,
+                    49.93026541906982
+                ]
+            ]
+        },
+        {
+            "sectorId": 7,
+            "row": 2,
+            "column": 2,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.61570221385613,
+                    49.93026541906982
+                ],
+                [
+                    20.61570221385613,
+                    49.92347888661206
+                ],
+                [
+                    20.634445901652192,
+                    49.92347888661206
+                ],
+                [
+                    20.634445901652192,
+                    49.93026541906982
+                ]
+            ]
+        },
+        {
+            "sectorId": 8,
+            "row": 2,
+            "column": 3,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.634445901652192,
+                    49.93026541906982
+                ],
+                [
+                    20.634445901652192,
+                    49.92347888661206
+                ],
+                [
+                    20.653189589448253,
+                    49.92347888661206
+                ],
+                [
+                    20.653189589448253,
+                    49.93026541906982
+                ]
+            ]
+        },
+        {
+            "sectorId": 9,
+            "row": 2,
+            "column": 4,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.65318958944825,
+                    49.93026541906982
+                ],
+                [
+                    20.65318958944825,
+                    49.92347888661206
+                ],
+                [
+                    20.67193327724431,
+                    49.92347888661206
+                ],
+                [
+                    20.67193327724431,
+                    49.93026541906982
+                ]
+            ]
+        },
+        {
+            "sectorId": 10,
+            "row": 2,
+            "column": 5,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.67193327724431,
+                    49.93026541906982
+                ],
+                [
+                    20.67193327724431,
+                    49.92347888661206
+                ],
+                [
+                    20.69067696504037,
+                    49.92347888661206
+                ],
+                [
+                    20.69067696504037,
+                    49.93026541906982
+                ]
+            ]
+        },
+        {
+            "sectorId": 11,
+            "row": 3,
+            "column": 1,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.59695852606007,
+                    49.92347888661205
+                ],
+                [
+                    20.59695852606007,
+                    49.91669235415429
+                ],
+                [
+                    20.61570221385613,
+                    49.91669235415429
+                ],
+                [
+                    20.61570221385613,
+                    49.92347888661205
+                ]
+            ]
+        },
+        {
+            "sectorId": 12,
+            "row": 3,
+            "column": 2,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.61570221385613,
+                    49.92347888661205
+                ],
+                [
+                    20.61570221385613,
+                    49.91669235415429
+                ],
+                [
+                    20.634445901652192,
+                    49.91669235415429
+                ],
+                [
+                    20.634445901652192,
+                    49.92347888661205
+                ]
+            ]
+        },
+        {
+            "sectorId": 13,
+            "row": 3,
+            "column": 3,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.634445901652192,
+                    49.92347888661205
+                ],
+                [
+                    20.634445901652192,
+                    49.91669235415429
+                ],
+                [
+                    20.653189589448253,
+                    49.91669235415429
+                ],
+                [
+                    20.653189589448253,
+                    49.92347888661205
+                ]
+            ]
+        },
+        {
+            "sectorId": 14,
+            "row": 3,
+            "column": 4,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.65318958944825,
+                    49.92347888661205
+                ],
+                [
+                    20.65318958944825,
+                    49.91669235415429
+                ],
+                [
+                    20.67193327724431,
+                    49.91669235415429
+                ],
+                [
+                    20.67193327724431,
+                    49.92347888661205
+                ]
+            ]
+        },
+        {
+            "sectorId": 15,
+            "row": 3,
+            "column": 5,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.67193327724431,
+                    49.92347888661205
+                ],
+                [
+                    20.67193327724431,
+                    49.91669235415429
+                ],
+                [
+                    20.69067696504037,
+                    49.91669235415429
+                ],
+                [
+                    20.69067696504037,
+                    49.92347888661205
+                ]
+            ]
+        },
+        {
+            "sectorId": 16,
+            "row": 4,
+            "column": 1,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.59695852606007,
+                    49.91669235415429
+                ],
+                [
+                    20.59695852606007,
+                    49.90990582169653
+                ],
+                [
+                    20.61570221385613,
+                    49.90990582169653
+                ],
+                [
+                    20.61570221385613,
+                    49.91669235415429
+                ]
+            ]
+        },
+        {
+            "sectorId": 17,
+            "row": 4,
+            "column": 2,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.61570221385613,
+                    49.91669235415429
+                ],
+                [
+                    20.61570221385613,
+                    49.90990582169653
+                ],
+                [
+                    20.634445901652192,
+                    49.90990582169653
+                ],
+                [
+                    20.634445901652192,
+                    49.91669235415429
+                ]
+            ]
+        },
+        {
+            "sectorId": 18,
+            "row": 4,
+            "column": 3,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.634445901652192,
+                    49.91669235415429
+                ],
+                [
+                    20.634445901652192,
+                    49.90990582169653
+                ],
+                [
+                    20.653189589448253,
+                    49.90990582169653
+                ],
+                [
+                    20.653189589448253,
+                    49.91669235415429
+                ]
+            ]
+        },
+        {
+            "sectorId": 19,
+            "row": 4,
+            "column": 4,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.65318958944825,
+                    49.91669235415429
+                ],
+                [
+                    20.65318958944825,
+                    49.90990582169653
+                ],
+                [
+                    20.67193327724431,
+                    49.90990582169653
+                ],
+                [
+                    20.67193327724431,
+                    49.91669235415429
+                ]
+            ]
+        },
+        {
+            "sectorId": 20,
+            "row": 4,
+            "column": 5,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.67193327724431,
+                    49.91669235415429
+                ],
+                [
+                    20.67193327724431,
+                    49.90990582169653
+                ],
+                [
+                    20.69067696504037,
+                    49.90990582169653
+                ],
+                [
+                    20.69067696504037,
+                    49.91669235415429
+                ]
+            ]
+        },
+        {
+            "sectorId": 21,
+            "row": 5,
+            "column": 1,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.59695852606007,
+                    49.909905821696526
+                ],
+                [
+                    20.59695852606007,
+                    49.90311928923877
+                ],
+                [
+                    20.61570221385613,
+                    49.90311928923877
+                ],
+                [
+                    20.61570221385613,
+                    49.909905821696526
+                ]
+            ]
+        },
+        {
+            "sectorId": 22,
+            "row": 5,
+            "column": 2,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.61570221385613,
+                    49.909905821696526
+                ],
+                [
+                    20.61570221385613,
+                    49.90311928923877
+                ],
+                [
+                    20.634445901652192,
+                    49.90311928923877
+                ],
+                [
+                    20.634445901652192,
+                    49.909905821696526
+                ]
+            ]
+        },
+        {
+            "sectorId": 23,
+            "row": 5,
+            "column": 3,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.634445901652192,
+                    49.909905821696526
+                ],
+                [
+                    20.634445901652192,
+                    49.90311928923877
+                ],
+                [
+                    20.653189589448253,
+                    49.90311928923877
+                ],
+                [
+                    20.653189589448253,
+                    49.909905821696526
+                ]
+            ]
+        },
+        {
+            "sectorId": 24,
+            "row": 5,
+            "column": 4,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.65318958944825,
+                    49.909905821696526
+                ],
+                [
+                    20.65318958944825,
+                    49.90311928923877
+                ],
+                [
+                    20.67193327724431,
+                    49.90311928923877
+                ],
+                [
+                    20.67193327724431,
+                    49.909905821696526
+                ]
+            ]
+        },
+        {
+            "sectorId": 25,
+            "row": 5,
+            "column": 5,
+            "sectorType": "DECIDUOUS",
+            "initialState": {
+                "temperature": 20,
+                "windSpeed": 0,
+                "windDirection": "NE",
+                "airHumidity": 0,
+                "plantLitterMoisture": 0,
+                "co2Concentration": 0,
+                "pm2_5Concentration": 0,
+                "fireLevel": 0
+            },
+            "contours": [
+                [
+                    20.67193327724431,
+                    49.909905821696526
+                ],
+                [
+                    20.67193327724431,
+                    49.90311928923877
+                ],
+                [
+                    20.69067696504037,
+                    49.90311928923877
+                ],
+                [
+                    20.69067696504037,
+                    49.909905821696526
+                ]
+            ]
+        }
+    ],
+    "sensors": [
+        {
+            "sensorId": 0,
+            "sensorType": "CO2",
+            "location": {
+                "longitude": 20.683985594040678,
+                "latitude": 49.923162735202595
+            },
+            "timestamp": "1768390129630"
+        },
+        {
+            "sensorId": 1,
+            "sensorType": "CO2",
+            "location": {
+                "longitude": 20.653152097740442,
+                "latitude": 49.923317968859045
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 2,
+            "sensorType": "LITTER_MOISTURE",
+            "location": {
+                "longitude": 20.628848577430226,
+                "latitude": 49.91273177747059
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 3,
+            "sensorType": "PM2_5",
+            "location": {
+                "longitude": 20.62317115060027,
+                "latitude": 49.930332961455555
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 4,
+            "sensorType": "WIND_DIRECTION",
+            "location": {
+                "longitude": 20.687322595933686,
+                "latitude": 49.92052493322504
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 5,
+            "sensorType": "WIND_DIRECTION",
+            "location": {
+                "longitude": 20.60166559767937,
+                "latitude": 49.921975291131965
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 6,
+            "sensorType": "WIND_DIRECTION",
+            "location": {
+                "longitude": 20.62207309451539,
+                "latitude": 49.916990019526224
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 7,
+            "sensorType": "WIND_DIRECTION",
+            "location": {
+                "longitude": 20.61680138782438,
+                "latitude": 49.925494965844216
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 8,
+            "sensorType": "WIND_DIRECTION",
+            "location": {
+                "longitude": 20.620565230728896,
+                "latitude": 49.91217963513188
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 9,
+            "sensorType": "WIND_SPEED",
+            "location": {
+                "longitude": 20.666733803967453,
+                "latitude": 49.90838284791263
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 10,
+            "sensorType": "WIND_SPEED",
+            "location": {
+                "longitude": 20.651823177644903,
+                "latitude": 49.92282938792137
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 11,
+            "sensorType": "WIND_SPEED",
+            "location": {
+                "longitude": 20.67922654709434,
+                "latitude": 49.92475505539678
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 12,
+            "sensorType": "WIND_SPEED",
+            "location": {
+                "longitude": 20.646933840433736,
+                "latitude": 49.91810923196601
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "sensorId": 13,
+            "sensorType": "WIND_SPEED",
+            "location": {
+                "longitude": 20.62979581976797,
+                "latitude": 49.93698360706718
+            },
+            "timestamp": "1768390129631"
+        }
+    ],
+    "cameras": [
+        {
+            "cameraId": 0,
+            "location": {
+                "longitude": 20.67539751104712,
+                "latitude": 49.92324650204879
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "cameraId": 1,
+            "location": {
+                "longitude": 20.606416128723293,
+                "latitude": 49.92856102409856
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "cameraId": 2,
+            "location": {
+                "longitude": 20.64575194706155,
+                "latitude": 49.92817135257075
+            },
+            "timestamp": "1768390129631"
+        },
+        {
+            "cameraId": 3,
+            "location": {
+                "longitude": 20.60501483304413,
+                "latitude": 49.934331685791484
+            },
+            "timestamp": "1768390129631"
+        }
+    ],
+    "fireBrigades": [
+        {
+            "fireBrigadeId": 0,
+            "timestamp": "2026-01-14T12:28:49.631131",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.60392386901279,
+                "latitude": 49.906982860392084
+            },
+            "currentLocation": {
+                "longitude": 20.60392386901279,
+                "latitude": 49.906982860392084
+            }
+        },
+        {
+            "fireBrigadeId": 1,
+            "timestamp": "2026-01-14T12:28:49.631140",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.690465771564046,
+                "latitude": 49.913162688559794
+            },
+            "currentLocation": {
+                "longitude": 20.690465771564046,
+                "latitude": 49.913162688559794
+            }
+        },
+        {
+            "fireBrigadeId": 2,
+            "timestamp": "2026-01-14T12:28:49.631151",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.656714139518442,
+                "latitude": 49.918917505871015
+            },
+            "currentLocation": {
+                "longitude": 20.656714139518442,
+                "latitude": 49.918917505871015
+            }
+        },
+        {
+            "fireBrigadeId": 3,
+            "timestamp": "2026-01-14T12:28:49.631159",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.684680928205758,
+                "latitude": 49.93628888137697
+            },
+            "currentLocation": {
+                "longitude": 20.684680928205758,
+                "latitude": 49.93628888137697
+            }
+        },
+        {
+            "fireBrigadeId": 4,
+            "timestamp": "2026-01-14T12:28:49.631167",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.654309303670626,
+                "latitude": 49.90717010514371
+            },
+            "currentLocation": {
+                "longitude": 20.654309303670626,
+                "latitude": 49.90717010514371
+            }
+        },
+        {
+            "fireBrigadeId": 5,
+            "timestamp": "2026-01-14T12:28:49.631176",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.62494453425242,
+                "latitude": 49.91524309896334
+            },
+            "currentLocation": {
+                "longitude": 20.62494453425242,
+                "latitude": 49.91524309896334
+            }
+        },
+        {
+            "fireBrigadeId": 6,
+            "timestamp": "2026-01-14T12:28:49.631180",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.643861070787267,
+                "latitude": 49.92181819540819
+            },
+            "currentLocation": {
+                "longitude": 20.643861070787267,
+                "latitude": 49.92181819540819
+            }
+        }
+    ],
+    "foresterPatrols": [
+        {
+            "foresterPatrolId": 0,
+            "timestamp": "2026-01-14T12:28:49.631185",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.647514615390342,
+                "latitude": 49.92853020744477
+            },
+            "currentLocation": {
+                "longitude": 20.647514615390342,
+                "latitude": 49.92853020744477
+            }
+        },
+        {
+            "foresterPatrolId": 1,
+            "timestamp": "2026-01-14T12:28:49.631192",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.671035862515144,
+                "latitude": 49.91019783431999
+            },
+            "currentLocation": {
+                "longitude": 20.671035862515144,
+                "latitude": 49.91019783431999
+            }
+        },
+        {
+            "foresterPatrolId": 2,
+            "timestamp": "2026-01-14T12:28:49.631196",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.650410017165537,
+                "latitude": 49.92599094904241
+            },
+            "currentLocation": {
+                "longitude": 20.650410017165537,
+                "latitude": 49.92599094904241
+            }
+        },
+        {
+            "foresterPatrolId": 3,
+            "timestamp": "2026-01-14T12:28:49.631200",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.62489037207981,
+                "latitude": 49.91434909716152
+            },
+            "currentLocation": {
+                "longitude": 20.62489037207981,
+                "latitude": 49.91434909716152
+            }
+        },
+        {
+            "foresterPatrolId": 4,
+            "timestamp": "2026-01-14T12:28:49.631205",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.644237426068724,
+                "latitude": 49.909190890739076
+            },
+            "currentLocation": {
+                "longitude": 20.644237426068724,
+                "latitude": 49.909190890739076
+            }
+        },
+        {
+            "foresterPatrolId": 5,
+            "timestamp": "2026-01-14T12:28:49.631209",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.688248114526278,
+                "latitude": 49.92971129090923
+            },
+            "currentLocation": {
+                "longitude": 20.688248114526278,
+                "latitude": 49.92971129090923
+            }
+        },
+        {
+            "foresterPatrolId": 6,
+            "timestamp": "2026-01-14T12:28:49.631213",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.67287789737994,
+                "latitude": 49.92002645228051
+            },
+            "currentLocation": {
+                "longitude": 20.67287789737994,
+                "latitude": 49.92002645228051
+            }
+        },
+        {
+            "foresterPatrolId": 7,
+            "timestamp": "2026-01-14T12:28:49.631217",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.64387385069601,
+                "latitude": 49.93639495776187
+            },
+            "currentLocation": {
+                "longitude": 20.64387385069601,
+                "latitude": 49.93639495776187
+            }
+        },
+        {
+            "foresterPatrolId": 8,
+            "timestamp": "2026-01-14T12:28:49.631222",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.619783828189863,
+                "latitude": 49.90465606967733
+            },
+            "currentLocation": {
+                "longitude": 20.619783828189863,
+                "latitude": 49.90465606967733
+            }
+        },
+        {
+            "foresterPatrolId": 9,
+            "timestamp": "2026-01-14T12:28:49.631226",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.649360193929304,
+                "latitude": 49.91920946449724
+            },
+            "currentLocation": {
+                "longitude": 20.649360193929304,
+                "latitude": 49.91920946449724
+            }
+        },
+        {
+            "foresterPatrolId": 10,
+            "timestamp": "2026-01-14T12:28:49.631230",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.600133093127557,
+                "latitude": 49.91012219447627
+            },
+            "currentLocation": {
+                "longitude": 20.600133093127557,
+                "latitude": 49.91012219447627
+            }
+        },
+        {
+            "foresterPatrolId": 11,
+            "timestamp": "2026-01-14T12:28:49.631236",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.605394175385356,
+                "latitude": 49.93148108627086
+            },
+            "currentLocation": {
+                "longitude": 20.605394175385356,
+                "latitude": 49.93148108627086
+            }
+        },
+        {
+            "foresterPatrolId": 12,
+            "timestamp": "2026-01-14T12:28:49.631240",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.66593879243561,
+                "latitude": 49.92862442158256
+            },
+            "currentLocation": {
+                "longitude": 20.66593879243561,
+                "latitude": 49.92862442158256
+            }
+        },
+        {
+            "foresterPatrolId": 13,
+            "timestamp": "2026-01-14T12:28:49.631244",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.654982694431766,
+                "latitude": 49.90531189225712
+            },
+            "currentLocation": {
+                "longitude": 20.654982694431766,
+                "latitude": 49.90531189225712
+            }
+        },
+        {
+            "foresterPatrolId": 14,
+            "timestamp": "2026-01-14T12:28:49.631248",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.606837331516065,
+                "latitude": 49.9339807853787
+            },
+            "currentLocation": {
+                "longitude": 20.606837331516065,
+                "latitude": 49.9339807853787
+            }
+        },
+        {
+            "foresterPatrolId": 15,
+            "timestamp": "2026-01-14T12:28:49.631252",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.609249155454837,
+                "latitude": 49.91564859002198
+            },
+            "currentLocation": {
+                "longitude": 20.609249155454837,
+                "latitude": 49.91564859002198
+            }
+        },
+        {
+            "foresterPatrolId": 16,
+            "timestamp": "2026-01-14T12:28:49.631257",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.60265192673053,
+                "latitude": 49.906517128880814
+            },
+            "currentLocation": {
+                "longitude": 20.60265192673053,
+                "latitude": 49.906517128880814
+            }
+        },
+        {
+            "foresterPatrolId": 17,
+            "timestamp": "2026-01-14T12:28:49.631261",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.607505352259864,
+                "latitude": 49.92177026146429
+            },
+            "currentLocation": {
+                "longitude": 20.607505352259864,
+                "latitude": 49.92177026146429
+            }
+        },
+        {
+            "foresterPatrolId": 18,
+            "timestamp": "2026-01-14T12:28:49.631265",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.65327938917673,
+                "latitude": 49.9334649785007
+            },
+            "currentLocation": {
+                "longitude": 20.65327938917673,
+                "latitude": 49.9334649785007
+            }
+        },
+        {
+            "foresterPatrolId": 19,
+            "timestamp": "2026-01-14T12:28:49.631271",
+            "state": "AVAILABLE",
+            "baseLocation": {
+                "longitude": 20.62548018699843,
+                "latitude": 49.91243235714318
+            },
+            "currentLocation": {
+                "longitude": 20.62548018699843,
+                "latitude": 49.91243235714318
+            }
+        }
+    ]
+}

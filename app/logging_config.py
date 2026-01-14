@@ -4,7 +4,20 @@ import logging.handlers
 import os
 from pathlib import Path
 
-def setup_logging(service_name):
+
+def _get_log_level_from_env(default: str = "INFO") -> int:
+    level_name = os.getenv("LOG_LEVEL", default).upper()
+    return getattr(logging, level_name, logging.INFO)
+
+
+def setup_logging(service_name: str) -> logging.Logger:
+    """
+    Configure logging for the configuration service.
+
+    Environment variables:
+    - LOG_DIR: base directory for logs (default: ./logs/<service_name>)
+    - LOG_LEVEL: DEBUG, INFO, WARNING, ERROR, CRITICAL (default: INFO)
+    """
     log_dir = os.getenv("LOG_DIR", f"./logs/{service_name}")
 
     try:
@@ -24,24 +37,28 @@ def setup_logging(service_name):
         datefmt='%Y-%m-%dT%H:%M:%S'
     )
 
+    level = _get_log_level_from_env()
+
     file_handler = logging.handlers.RotatingFileHandler(
         str(log_file),
-        maxBytes=1024*1024*1024,  # 1GB
+        maxBytes=1024 * 1024 * 1024,  # 1GB
         backupCount=30
     )
     file_handler.setFormatter(formatter)
-    file_handler.setLevel(logging.INFO)
+    file_handler.setLevel(level)
 
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
-    console_handler.setLevel(logging.INFO)
+    console_handler.setLevel(level)
 
     root = logging.getLogger()
-    root.setLevel(logging.INFO)
+    root.setLevel(level)
 
     if not any(isinstance(h, logging.handlers.RotatingFileHandler) and getattr(h, "baseFilename", "") == str(log_file) for h in root.handlers):
         root.addHandler(file_handler)
     if not any(isinstance(h, logging.StreamHandler) for h in root.handlers):
         root.addHandler(console_handler)
 
-    return logging.getLogger(service_name)
+    logger = logging.getLogger(service_name)
+    logger.info("Logging initialized. Log file: %s, level: %s", log_file, logging.getLevelName(level))
+    return logger
